@@ -1,0 +1,62 @@
+body {
+    background: #fefefe;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #AAF0D1;
+    padding: 20px 0;
+    border-bottom: 2px solid #000;
+}
+
+.topo {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imgLogo {
+    width: 120px;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #17b4db;
+    text-shadow: 0 0 2px #fff;
+}
+
+footer {
+    text-align: center;
+    background-image: url('../images/bg.jpg');
+    padding: 30px 0;
+    border-top: 2px solid #000;
+}
+
+.copyright {
+    margin: 20px 0 0;
+}
+
+.copyright a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}

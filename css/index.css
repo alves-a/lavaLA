@@ -1,0 +1,66 @@
+.banner {
+    width: 100%;
+}
+
+.sobre, .mapa {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    clear: left;
+}
+
+.imgSobre {
+    width: 25%;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 5px;
+}
+
+.sobre p, .mapa p {
+    margin: 0 0 1em;
+}
+
+.sobre strong {
+    font-weight: bold;
+}
+
+.sobre em {
+    font-style: italic;
+}
+
+.mapa p {
+    text-align: center;
+}
+
+.conteudoBeneficios, .video {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.listaBeneficios {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itemImg {
+    width: 99%;
+}
+
+.imgBeneficios {
+    width: 50%;
+}
+
+.video {
+    padding: 0 0 4em 0;
+}
