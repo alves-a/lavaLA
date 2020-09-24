@@ -15,8 +15,14 @@ header {
     margin: 0 auto;
 }
 
-.imgLogo {
+.imgLogo, .blocoLogo {
     width: 120px;
+}
+
+.tituloLogo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
 }
 
 nav {
