@@ -45,14 +45,17 @@
             <fieldset>
                 <legend>Como prefere nosso contato?</legend>
 
-                <label for="radioWhats">Mensagem no WhatsApp</label>
-                <input type="radio" name="contato" id="radioWhats">
+                <label for="radioWhats">
+                    <input type="radio" name="contato" id="radioWhats"> Mensagem no WhatsApp
+                </label>
 
-                <label for="radioTelefone">Ligação no telefone</label>
-                <input type="radio" name="contato" id="radioTelefone" checked>
+                <label for="radioTelefone">
+                    <input type="radio" name="contato" id="radioTelefone" checked> Ligação no telefone
+                </label>
 
-                <label for="radioEmail">Mensagem por email</label>
-                <input type="radio" name="contato" id="radioEmail">
+                <label for="radioEmail">
+                    <input type="radio" name="contato" id="radioEmail"> Mensagem por email
+                </label>
             </fieldset>
             
             <fieldset>
@@ -78,8 +81,10 @@
 
             <fieldset>
                 <legend>Observações</legend>
-                <textarea id="obs" cols="70" rows="10" class="inputPadrao" placeholder='Deixe aqui sua mensagem (não é obrigatório)&#10;exemplo: "Preferência no horário das 09:30"&#10;'></textarea>
+                <textarea id="obs" cols="70" rows="10" placeholder='Deixe aqui sua mensagem (não é obrigatório)&#10;exemplo: "Preferência no horário das 09:30"&#10;'></textarea>
             </fieldset>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
         </form>
 
         <table>
@@ -92,15 +97,15 @@
             <tbody>
                 <tr>
                     <td>Segunda à Quinta</td>
-                    <td>08:30 às 20:00</td>
+                    <td>08:30 ~ 20:00</td>
                 </tr>
                 <tr>
-                    <td>Sexta</td>
-                    <td>08:30 às 18:00</td>
+                    <td>Sexta e Feriados</td>
+                    <td>08:30 ~ 18:00</td>
                 </tr>
                 <tr>
                     <td>Sábado</td>
-                    <td>09:00 às 12:00</td>
+                    <td>09:00 ~ 12:00</td>
                 </tr>
             </tbody>
         </table>

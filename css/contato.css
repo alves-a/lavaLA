@@ -1,3 +1,79 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form, fieldset {
+    margin: 20px 0;
+}
+
 fieldset {
-    border: 1px solid #000000;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+form legend {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 15px 15px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px 15px;
+}
+
+.inputPadrao, select {
+    display: block;
+    margin: 0 10px 20px 15px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 0 10px 20px 15px;
+}
+
+textarea {
+    display: block;
+    width: 70%;
+    margin: 0 auto 20px auto;
+}
+
+.enviar {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 40%;
+    padding: 15px 0;
+    background: #17b4db;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 400ms all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #AAF0D1;
+    color: #000;
+    transform: scale(1.2);
+}
+
+table {
+    text-align: center;
+    margin: 20px auto 40px auto;
+}
+
+thead {
+    background: #555555;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 10px 15px;
 }
