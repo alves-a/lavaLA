@@ -1,4 +1,54 @@
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    vertical-align: top;
+    margin: 0 1.5% 3% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.servicos li:hover {
+    border-color: #17b4db;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #000;
+}
+
+.servicos li:active {
+    border-color: #088c19;
+}
+
+.servicos li:hover h2 {
+    font-size: 27px;
+}
+
+.servicos h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
 .imgServico {
     width: 200px;
     height: 200px;
+}
+
+.produtoDescricao {
+    font-size: 18px;
+    margin: 1em 0 1em 0;
+}
+
+.produtoPreco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
