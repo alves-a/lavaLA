@@ -23,6 +23,10 @@
     box-shadow: 10px 10px 10px #000;
 }
 
+.sobre p {
+    text-indent: 2em;
+}
+
 .sobre p, .mapa p {
     margin: 0 0 1em;
 }
@@ -97,4 +101,36 @@
 
 .video {
     padding: 1em 0 4em 0;
+}
+
+@media screen and (max-width: 480px) {
+    .sobre, .mapaConteudo, .listaBeneficios, .video {
+        width: auto;
+    }
+
+    .tituloPrincipal {
+        font-size: 1.7em;
+        font-weight: bolder;
+        padding: 1.5em 0;
+    }
+
+    p {
+        font-size: 21px;
+    }
+
+    .imgSobre {
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 40px;
+    }
+
+    .sobre {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .itens {
+        font-size: 1.2em;
+    }
 }

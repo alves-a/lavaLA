@@ -19,6 +19,11 @@ header {
     width: 120px;
 }
 
+.blocoLogo a {
+    color: #000;
+    text-decoration: none;
+}
+
 .tituloLogo {
     text-align: center;
     font-size: 28px;
@@ -83,4 +88,30 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background: #17b4db;
     box-shadow: inset 0 0 5px #AAF0D1; 
+}
+
+
+@media screen and (max-width: 480px) {
+    .topo {
+        width: auto;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        position: static;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 0 0 0 10px;
+    }
+    
+    nav a {
+        font-size: 22px;
+    }
 }
